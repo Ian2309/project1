@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title("My Streamlit Web App")
+st.title("Test Deployment Web App")
 
-name = st.text_input("Enter your name")
+name = st.text_input("Enter your full name")
 
 if name:
-    st.write("Hello", name)
+    st.write("Welcome to the test project", name)
